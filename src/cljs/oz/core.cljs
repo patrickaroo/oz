@@ -1,4 +1,4 @@
-(ns ^:figwheel-always oz.core
+(ns oz.core
   (:require [reagent.core :as r]
             [clojure.string :as str]
             [cljs.core.async :as async  :refer (<! >! put! chan)]
